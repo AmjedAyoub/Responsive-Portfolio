@@ -6,19 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Gloria+Hallelujah|Monoton|Satisfy|Tangerine&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="wrapper" id="header">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <h1>Amjed Ayoub</h1>
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </form>
+                <form class="form-inline my-2 my-lg-0">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link gamebtn" href="https://amjedayoub.github.io/Word-Guess-Game/" target="_blank">Word Guess!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link gamebtn" href="https://amjedayoub.github.io/Unit-4-Game/" target="_blank">Star wars!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  gamebtn" href="https://amjedayoub.github.io/TriviaGame/" target="_blank">Trivia Game!</a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <video autoplay muted loop id="myVideo" autoplay="true" class="asset-card__film" controls="controls" controlslist="nodownload" data-alt="Stock Video Clip Stock Footage Video" src="https://media.gettyimages.com/videos/big-data-conceptual-simulation-video-id854764956"></video>
+    <!-- <div class="wrapper" id="header">
         <h1 id="name">Amjed Ayoub</h1>
         <a id="contact" href="contact.html">Contact</a>
         <a id="port" href="portfolio.html">Portfolio</a>
         <a id="about" href="index.html">About</a>
-    </div>
+    </div> -->
     <!-- <main> -->
-                <div class="wrapper" id="main">
-                    <h1 id="start">Portfolio</h1>
+    <div class="wrapper" id="main">
+        <h1 id="start">Portfolio</h1>
         <div class="portmain">
             <div class="pic1">
                 <img src="assets/images/p11.jpg" alt="Jordan">
@@ -43,12 +85,16 @@
                 <p class="textpic">Jordan</p>
             </div>
         </div>
-                </div>
+    </div>
     <!-- </main> -->
 
     <footer>
         <p id="foot">Copyright</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
